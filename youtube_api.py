@@ -1,12 +1,14 @@
 from statistics import YouTubeStats
 
-API_KEY = 'AIzaSyAf5XnX2imU3KqPaRqBJukhm3LkHmsSn0k'
+API_KEY = 'set your youtube data api here'
 
-channel_id ='UCLZIN4aTXYm92c1ENyN8KmA'
+channel_id ='channel id'
+
+channel_title = 'channel title'
 
 
 if __name__ == "__main__":
-    channel_stats = YouTubeStats(API_KEY, channel_id, 'Amway921')
+    channel_stats = YouTubeStats(API_KEY, channel_id, channel_title)
 
     channel_stats.get_channel_stats()
 
